@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cricket World</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+        nav {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffcc00;
+            transition: color 0.3s;
+        }
+        footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        .image-animation {
+            width: 300px;
+            transition: transform 0.5s;
+        }
+        .image-animation:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cricket World</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Cricket</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Welcome to the World of Cricket</h2>
+        <p>Cricket is a bat-and-ball game played between two teams of eleven players on a field.</p>
+        <img src="cricket_image1.jpg" alt="Cricket Image" class="image-animation">
+    </div>
+    <footer>
+        <p>&copy; 2024 Cricket World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
